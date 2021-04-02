@@ -2,7 +2,7 @@
 
 resource "azurerm_subnet" "demo" {
   name                 =  var.subnet_name
-  address_prefix       = ["10.0.0.2/24"]
+  address_prefix       = ["10.0.2.0/24"]
   resource_group_name  = var.rg_name
   virtual_network_name = var.vnet_name
 }
