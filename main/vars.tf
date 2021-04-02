@@ -43,6 +43,6 @@ variable "username" {
 variable "password" {
   type        = string
   default     = "#YLPRgg89"
-  description = "The password of the user for VM Login
+  description = "The password of the user for VM Login"
 }
 
